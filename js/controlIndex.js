@@ -2,11 +2,11 @@
 	//Rafael Carmona Arrabal. JS de control MasterMind.
 	let jugar = function(){
 		window.open("masterMind.html");
-		window.close();
+		this.close();
 	}
 
 	let salir = function(){
-		window.close();
+		this.close();
 	}
 
 	let init = function(){
