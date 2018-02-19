@@ -1,16 +1,15 @@
 body{
-	background-image:  url(../imgs/background.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
+	background: aqua;
 	text-align: center;
 }
 
 button {
 	display: inline-block;
 	width: 6rem;
-	background: red;
+	background: white;
+	border: thin solid #c3c3c3;
+	border-radius: 5px;
 	margin: 20px;
-	box-shadow: 2px 2px 5px #000;
 }
 
 button p{
@@ -19,9 +18,7 @@ button p{
 	display: inline-block;
 	font-size: 1.6rem;
 	text-decoration: none;
-	color: white;
-	font-weight: bold;
-	text-shadow: 3px 2px 3px #000; 
+	color: #444555;
 }
 
 h1{
@@ -29,4 +26,21 @@ h1{
 	font-size: 5rem;
 	font-weight: bold;
 	text-shadow: 2px 2px 5px #000;
+}
+
+footer{
+	border-top: thin solid #f3f3f3;
+	margin: 1% 10%;
+	width: 80%;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+}
+
+footer p{
+	display: block;
+	text-align: center;
+	width: 100%;
+	color: #fff;
+	text-shadow: 1px 2px 3px #000;
 }
