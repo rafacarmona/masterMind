@@ -6,7 +6,7 @@
 	}
 
 	let salir = function(){
-		window.close();
+		this.window.close();
 	}
 
 	let init = function(){
